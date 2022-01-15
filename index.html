@@ -15,13 +15,45 @@
     <div class="loader">
 
     </div>
-    <nav class="header">
-        <a href="#" class="logo"><h2>TremDev</h2></a>
-        <div class="toggle">
-            <img src="./assets/img/toggle.png" alt="">
-        </div>
-    </nav>
 
+    <header class="primary-header">
+
+        <div class="logo">
+            <img src="./assets/img/logo.png" alt="">
+        </div>
+    
+        <button class="mobile-nav-toggle" 
+                aria-controls="primary-navigation" 
+                aria-expanded="false">
+                    <span class="menu-toggle">Menu</span>
+        </button>
+    
+        <nav>
+            <ul class="primary-navigation" data-visible="false">
+                <li class="active">
+                    <a href="#"><span aria-hidden="true">01</span>
+                        Home</a>
+                </li>
+                <li>
+                    <a href="#"><span aria-hidden="true">02</span>
+                        Services</a>
+                </li>
+                <li>
+                    <a href="#"><span aria-hidden="true">03</span>
+                        Blog</a>
+                </li>
+                <li>
+                    <a href="#"><span aria-hidden="true">04</span>
+                        Contact</a>
+                </li>
+                <li>
+                    <a href="#"><span aria-hidden="true">05</span>
+                        LogIn</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
     <section class="banner">
         <video autoplay muted loop class="fitBg">
             <source src="./assets/video/glitch1.mp4" type="video/mp4">
