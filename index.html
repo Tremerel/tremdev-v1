@@ -6,15 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="loader">
-
-    </div>
 
     <header class="primary-header">
 
@@ -54,6 +51,7 @@
         </nav>
         
     </header>
+
     <section class="banner">
         <video autoplay muted loop class="fitBg">
             <source src="./assets/video/glitch1.mp4" type="video/mp4">
@@ -65,62 +63,89 @@
     </section>
     
     <section class="about">
-        <div class="contentBx" data-aos="fade-down">
-            <h2 class="titleText">Mes services bandes de batard</h2>
-            <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ab dolorem molestiae nostrum earum. Hic inventore libero qui, quos vitae quaerat. Alias quia fugit ut, praesentium illo repudiandae sit ea.</p>
-            <a href="#" class="btn" data-text="MES SERVICES">MES SERVICES</a>
+
+        <div class="left">
+            <div class="contentBx" data-aos="fade-down">
+                <h2 class="titleText">Mes services bandes de batard</h2>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ab dolorem molestiae nostrum earum. Hic inventore libero qui, quos vitae quaerat. Alias quia fugit ut, praesentium illo repudiandae sit ea.</p>
+                <a href="#" class="btn" data-text="MES SERVICES">MES SERVICES</a>
+            </div>
         </div>
+
+        <div class="right">
             <div class="imgBx"  data-aos="fade-up">
+
                 <div class="imgBxItem">
                     <video autoplay muted loop class="fitBg">
                         <source src="./assets/video/your-own-project.mp4" type="video/mp4">
                     </video>
+                    <div class="bgShadow"></div>
                     <div class="verticale">Your own way</div>
                 </div>
+
                 <div class="imgBxItem">
                     <video autoplay muted loop class="fitBg">
                         <source src="./assets/video/videoCms.mp4" type="video/mp4">
                     </video>
+                    <div class="bgShadow"></div>
                     <div class="verticale">Short way app</div>
                 </div>
 
-            <!-- <div class="imgBxItem" style="background-image: url(./assets/img/'code.jpg');"></div>
-            <div class="imgBxItem" style="background-image: url('we./assets/img/bflow.jpg');"></div> -->
+            </div>
         </div>
     </section>
 
+            
     <section class="blog">
+
         <div class="content" data-aos="fade-down">
             <h2 class="titleText">Imagine a way to share your problems !</h2>
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, porro explicabo earum necessitatibus et vitae molestiae consectetur fugiat magni perspiciatis animi magnam eaque error laboriosam minima ex possimus rerum! Odit.</p>
         </div>
+
         <div class="blogList">
-            <div class="box" data-aos="fade-right">
-                <div class="imgBx">
-                    <img src="./assets/img/blog1.jpg" alt="" class="fitBg">
-                </div>
+
+            <div class="container">
+                <i class="fas fa-quote-right"></i>
                 <div class="content">
-                    <h2>Premier POST <br><span>Date du post</span></h2>
+                    <div class="top">
+                        <div class="title"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, ipsa?</p></div>
+                    </div>
+                    <div class="bottom">
+                        <div class="auteur"><p>TremDev</p></div>
+                        <a href="" class="btn">Read more</a>
+                    </div>
                 </div>
             </div>
-            <div class="box"data-aos="fade-up">
-                <div class="imgBx">
-                    <img src="./assets/img/blog2.jpg" alt="" class="fitBg">
-                </div>
+            <div class="container">
+                <i class="fas fa-quote-right"></i>
                 <div class="content">
-                    <h2>Second POST <br><span>Date du post</span></h2>
+                    <div class="top">
+                        <div class="title"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, ipsa?</p></div>
+                    </div>
+                    <div class="bottom">
+                        <div class="auteur"><p>TremDev</p></div>
+                        <a href="" class="btn">Read more</a>
+                    </div>
                 </div>
             </div>
-            <div class="box" data-aos="fade-left">
-                <div class="imgBx">
-                    <img src="./assets/img/blog3.jpg" alt="" class="fitBg">
-                </div>
+            <div class="container">
+                <i class="fas fa-quote-right"></i>
                 <div class="content">
-                    <h2>Troisieme POST <br><span>Date du post</span></h2>
+                    <div class="top">
+                        <div class="title"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, ipsa?</p></div>
+                    </div>
+                    <div class="bottom">
+                        <div class="auteur"><p>TremDev</p></div>
+                        <a href="" class="btn">Read more</a>
+                    </div>
                 </div>
             </div>
+
         </div>
+        
         <a href="#" class="btn" data-aos="fade-up" data-text="EN VOIR PLUS">EN VOIR PLUS</a>
+
     </section>
 
     <section class="presentation">
@@ -139,19 +164,7 @@
             </div>
         </div>
     </section>
-
-    <footer>
-        <div class="glitch">
-            <div class="glitch__item"></div>
-            <div class="glitch__item"></div>
-            <div class="glitch__item"></div>
-            <div class="glitch__item"></div>
-            <div class="glitch__item"></div>
-            <h1 class="glitch__title">Rentre Chez Ta mère</h1>
-        </div>
-    </footer>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
     <script src="app.js"></script>
 </body>
 </html>
